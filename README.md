@@ -37,7 +37,7 @@ This project was developed for macOS using Apple platform technologies.
 
 ## App Store Link
 
-🔗 https://apps.apple.com/tr/app/faceview-preview/id6757967733?mt=12FaceView Preview
+🔗 https://apps.apple.com/tr/app/faceview-preview/id6757967733?mt=12FaceViewPreview
 
 ---
 
