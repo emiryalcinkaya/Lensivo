@@ -1,56 +1,30 @@
-# FaceView Preview
+# Lensivo website
 
-FaceView Preview is a lightweight macOS menu bar application that provides an instant floating webcam preview for quick camera checks before meetings, recordings, livestreams, or calls.
+Minimal macOS app marketing website and privacy policy. Static HTML, CSS and JavaScript with no build step or third-party runtime dependencies.
 
-Designed with simplicity and privacy in mind, the app allows users to quickly access their camera without opening heavy video conferencing software.
+## Files and preview
 
----
+- `index.html`: concise marketing page, illustrative product scene, animated capture/camera/equalizer feature visuals, quality panel, supported languages, privacy summary and email contact.
+- `privacy.html`: local processing, recovery, permissions, retention, diagnostics, voluntary support data and website hosting.
+- `translations.js`: full English, French, German, Italian and Turkish dictionaries for both pages.
+- `site.js`: language selection, local preference and policy print action.
+- `style.css`: responsive light design, subtle motion, reduced-motion support and print styles.
+- `assets/`: actual Lensivo logo and favicon.
 
-## Features
+Run `python3 -m http.server 4173 --bind 127.0.0.1` from this folder. Open `http://127.0.0.1:4173/`. Optional `?lang=en`, `?lang=fr`, `?lang=de`, `?lang=it` or `?lang=tr` overrides the initial locale. Otherwise a saved preference or supported browser language is used. Selecting a language persists it between pages. English content remains readable if JavaScript is unavailable.
 
-- Menu bar application
-- Floating webcam preview window
-- Rounded or circular preview modes
-- Adjustable window size and opacity
-- Always-on-top support
-- Mirror camera view
-- Support for built-in and external cameras
+The product scene is illustrative and never accesses camera, microphone or screen. Email links open the user's email app; the user chooses whether to send. Contact: **emiryalcinkaya.dev@gmail.com**. The only browser storage is the `lensivo-language` localStorage preference. No analytics, advertising, external fonts or CDN dependencies.
 
----
+## GitHub Pages and App Store Connect
 
-## Privacy
+The project retains its GitHub Pages structure. Publish through the repository's existing Pages branch/folder. For the standard project deployment, the expected privacy URL is `https://emiryalcinkaya.github.io/FaceViewPreview/privacy.html`. Confirm the actual public HTTPS URL after publishing, including any configured custom domain, before entering it in App Store Connect and the macOS app. This redesign has not been pushed or publicly deployed.
 
-FaceView Preview is built with a privacy-first approach.
+The CTA retains app ID `6757967733` from the original site. Verify it is the intended listing before publication. Lensivo 2.0 is described as an upcoming FaceView Preview update. Change that announcement when released. macOS 15+, recording features and policy statements reflect the inspected Lensivo 2.0 source. Review all language versions whenever behavior or data processing changes.
 
-- No recording
-- No uploads
-- No tracking
-- No user data collection
+## Verification
 
----
+JavaScript syntax, local links/assets/anchors, duplicate IDs and full translation-key coverage checked. Both pages verified in five languages in the browser. Desktop and mobile layouts checked for overflow and missing images. Language preference persists between pages. All active email links use the new developer address. No browser warnings or errors observed.
 
-## Technologies
+Animated feature illustrations and privacy lock support reduced motion. Monochrome App Store buttons are provided in the hero and navigation. Recording resolutions verified against the app source: 720p, 1080p and 4K (2160p).
 
-This project was developed for macOS using Apple platform technologies.
-
----
-
-## App Store Link
-
-🔗 https://apps.apple.com/tr/app/faceview-preview/id6757967733?mt=12FaceViewPreview
-
----
-
-## Purpose of the Project
-
-The goal of this project is to create a clean and native-feeling utility tool for macOS users while improving my experience in software development and Apple platform design principles.
-
----
-
-## Status
-
-FaceView Preview is publicly available and continues to be improved with new updates and features.
-
----
-
-## Developed by Emir Yalçınkaya
+After confirming public GitHub Pages deployment, replace the policy hosting sentence in all five languages with a present-tense statement (Turkish: “Bu web sitesi GitHub Pages üzerinde barındırılır.”). The current policy does not claim that deployment has already occurred. Support correspondence and attachments must be deleted once no longer needed for request follow-up, issue investigation or applicable legal obligations, as stated in the policy.
